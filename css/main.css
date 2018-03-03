@@ -1,0 +1,255 @@
+﻿		body {
+			position:absolute;
+			background-image:url(../images/МакетПк1.jpg);
+			background-color:#000000;
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			background-size:cover;
+			margin: 0;
+			background-position:center;
+			width:100%;
+			height:77.8%;
+			font-family:'Lili';
+			min-width: 300px;
+			
+			
+		}
+		
+		header{
+			margin-top:-16px;
+			position:relative;			
+			display: block;
+			background: rgba(0,0,0,0.80);
+			height: 60px;
+			width: 100%;
+		    color:#FFFFFF;
+			z-index:10;
+		}
+		
+		footer{
+			margin:0;
+			left: 0; bottom: 0; right:0;
+			position:relative;
+			display: block;
+			background: rgba(0,0,0,0.70);
+			height: 60px;
+			width: 100%;
+			z-index:5;
+		}
+		
+		footer img{
+			width:1.5em;
+		}
+		.copyright{
+			padding-top:30px;
+			color:#FFFFFF;
+			margin-left:30px;
+			float: left;
+		}
+		.social{
+			padding-top:10px;
+			font-size:1.5em;
+			color:#FFFFFF;
+			margin-right:100px;
+			float: right;
+				
+		}
+		.main{
+			margin-left:10%;
+			margin-top:60px;
+			margin-bottom:60px;
+			padding-top:30px;
+			padding-bottom:30px;
+			padding-left:30px;
+			padding-right:30px;
+			min-height:110%;
+			margin-right:10%;
+			position:relative;
+			z-index:1;			
+		}
+		.content{
+			background:rgba(0,0,0,0.80);
+			background-size:cover;
+			color:#FFFFFF;
+			font-size:1.5em;
+			border:1px #343434 groove;
+			height:auto;
+			z-index:2;
+		}
+		.contentPreview{
+			background:rgba(0,0,0,0.80);
+			background-size:cover;
+			color:#FFFFFF;
+			font-size:1.5em;
+			border:1px #343434 groove;
+			height:inherit;
+			z-index:2;
+		}
+		.content iframe{
+			height:500px;}
+		a:link, a:visited {
+			color: #FFFFFF;
+			text-decoration:none;
+			cursor:pointer;
+		}
+		a:hover{
+			-moz-text-shadow:0 0 40px #fff;
+			-webkit-text-shadow:0 0 40px #fff;
+			text-shadow:0 0 40px #fff;
+		}
+		.colorblind{
+			font-size:2.5em;
+			color:#FFFFFF;		
+		}
+		
+		.colorblindM{
+			text-align:center;
+			margin-left:165px;
+		}
+		.header-menu{
+			font-size:1.7em;
+			padding:10px;
+			margin-right:20px;
+			float: right;
+			
+		}
+		 .header-ul a:hover img{
+			 transition:all 0.3s ease;
+			-webkit-transform: scale(1.2);
+  			-ms-transform: scale(1.2);
+  			transform: scale(1.2);
+			
+			}
+		div
+		{
+			cursor:default;
+			}
+		
+		.clearfix:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		@media screen and (max-width: 560px){
+			header > nav{
+				display:none;
+			}
+			.colorblindM{
+				display:none;
+
+			}
+			.menuImg{
+				display:block;
+			}
+			.social{
+				font-size:1.2em;				
+			}
+			.colorblindM{
+				font-size: 1.9em;
+				padding-top:10px;	
+			}
+			.colorblind{
+				
+				
+			}
+			footer{
+				height:100px;
+			}
+			header{
+				height:60px;
+			}
+		}
+		@media screen and (max-width: 1023px) and (min-width:560px){
+			header > nav{
+				display:none;
+			}
+			.colorblindM{
+				display:block;
+			}
+			.menuImg{
+				display:block;
+			}
+		}
+
+		@media screen and (min-width: 1024px) {
+			header > nav{
+				display:block;
+			}
+			.colorblindM{
+				display:none;
+			}
+			.menuImg{
+				display:none;
+			}
+		}
+
+		iframe{
+			width:100%;
+			height:100%;
+			overflow:hidden;
+			border:none;
+			position:relative;
+			display:block;
+			z-index:1;
+			
+		}
+		
+		.menuImg{
+			width: 50px; 
+			float: right;
+			margin-right: 20px; 
+			margin-top: 0.3em;
+		}
+		
+		.header-ul{
+			list-style-type:none;
+		}
+		
+		
+		.category-wrap {
+		  padding: 15px;
+		  background:rgba(0,0,0,0.70);
+		  width: 100%;
+		  box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+		  font-family:'Lili';
+		  z-index:9;
+		  position:absolute;
+		  display:none; 
+		}
+		
+		.category-wrap ul {
+		  list-style: none;
+		  margin: 0;
+		  padding: 0;
+		  z-index:9;
+		}
+		
+		.category-wrap li {margin: 12px 0 0 0px;z-index:9; }
+		
+		.category-wrap a {
+		  text-decoration: none;
+		  display: block;  
+		  font-size: 1.7em;
+		  color: rgba(255,255,255,1);
+		  padding: 5px;
+		  position: relative;
+		  transition: .3s linear;
+		  z-index:9;
+		  text-align:center;
+		}
+		.category-wrap a:hover {
+		  background:rgba(102,102,102,0.77);
+		  color: white;
+		  z-index:9;
+		}
+		.musicContent{
+			border-bottom:#B4B4B4 outset;
+			border-width:thick;
+			position:relative;
+		}
+		.musicContent > img{
+			width:100%;			
+		}
+		.content > h1{
+			border:#B4B4B4 outset;
+		}
