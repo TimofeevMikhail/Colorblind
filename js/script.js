@@ -30,5 +30,6 @@ window.onresize = deleteMenu;
 				document.getElementsByClassName("menuImg")[0].style.marginTop="-11px";
 				document.getElementById(l1).style.marginTop="60px";
 				document.getElementsByClassName("main")[0].style.marginTop="120px";
+				//document.getElementsByClassName("category-wrap")[0].style.width="inherit";
 			}
       }

@@ -8,6 +8,8 @@
 <link href="../css/font.css" rel="stylesheet">
 <link href="../css/main.css" rel="stylesheet">
 <script src="../js/script.js" ></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
 </head>
 <body class="clearfix">
     <header>
@@ -41,8 +43,21 @@
         </div>
 
 <footer>
-	<div class="copyright">Copyright © 2018 «Colorblind»</div>
-	<div class="social"> МЫ В СОЦСЕТЯХ:<a href="https://vk.com/the_midnightsun" target="_blank"><img src="../images/vk.png" alt="vkgroup" style="float: right; margin-left: 10px"></a> <a href="https://www.instagram.com/colorblindsong/" target="_blank"><img src="../images/inst.png" alt="Instagram" style="float: right; margin-left: 10px"></a></div>
+
+	<div class="social"> ПОДПИШИТЕСЬ НА НАШИ НОВОСТИ
+    <p>
+    <a href="https://vk.com/the_midnightsun" target="_blank"><img src="../images/vk.png" alt="vkgroup" style="margin-left: 10px"></a> <a href="https://www.instagram.com/colorblindsong/" target="_blank"><img src="../images/inst.png" alt="Instagram" style="margin-left: 10px"></a>
+    
+    <div>
+    <form action="../php/form.php" method="post" name="forma">
+        	<input id="inputEmail" required value="" type="email" name="Email" placeholder="Email" > 
+        	<input id="submitEmail" type="submit" value="Подписаться" >
+    </form>
+    </div>
+    </p>
+	</div>
+    <div class="copyright"><div style="padding-top:70px; padding-left:30px">Copyright © 2018 «Colorblind»</div></div>
+    
 </footer>
 </body>
 </html>
