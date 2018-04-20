@@ -336,3 +336,40 @@
 			color:#000;
 			background-color:#C9B8B9;		
 		}
+		.event{
+			display:flex;
+			padding-left:3px;
+			height:70px;
+			width:inherit;
+			background-color:rgba(0,0,0,0.50);
+			border:thin groove #FFFFFF;
+			flex-flow:row wrap;
+		}
+		.eventSity{
+			display:block;
+			width:45%;
+			padding-top:15px;	
+		}
+		.eventLocation{
+			display:block;
+			align-self:flex-end;	
+			justify-content:flex-end;
+			margin-top:-20px;	
+		}
+		.eventDate{
+			display:block;
+			width:35%;
+			align-self:flex-start;
+		}
+		.eventTicket{
+			display:flex;		
+			width:20%;
+			height:30px;
+			margin-top:20px;
+			border:thin groove #FFFFFF;
+			margin-left:-5px;
+			justify-content:center;	
+		}
+		.ticket{
+			align-self:center;	
+		}
