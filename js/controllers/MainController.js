@@ -4,11 +4,11 @@ app.controller('MainController',['$scope', function($scope){
  $scope.songs=[{
     name:'Танцы',
     cover: '../images/cover-1.jpg',
-	alt:'Буерак',
+	alt:'Танцы',
   },
   {
-    name: 'Сортирный Союз', 
+    name: 'Союз', 
     cover: '../images/webcam-toy-photo7.jpg',
-	alt:'Сортирный союз',
+	alt:'Союз',
   }];
 }]);
